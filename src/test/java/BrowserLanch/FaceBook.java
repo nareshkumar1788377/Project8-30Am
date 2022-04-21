@@ -15,6 +15,9 @@ public class FaceBook {
 		
 		driver.get("https://www.flipkart.com/");
 		
+		String url = driver.getCurrentUrl();
+		System.out.println(url);
+		
 	}
 
 }
